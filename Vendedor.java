@@ -1,4 +1,4 @@
-public class Vendendor extends Empregado {
+public class Vendedor extends Empregado {
     private float percentualComissao;
 
     public void setPercentualComissao(float percentualComissao) {
@@ -9,12 +9,16 @@ public class Vendendor extends Empregado {
         return percentualComissao;
     }
 
-    public Vendendor() {
+    public Vendedor() {
 
     }
 
-    public Vendendor(String nome,float salario, float percentualComissao) {
+    public Vendedor(String nome,float salario, float percentualComissao) {
         super(nome, salario);
         this.percentualComissao = percentualComissao;
+    }
+
+    public String getVendedor() {
+        return null;
     }
 }

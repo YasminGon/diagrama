@@ -17,4 +17,9 @@ public class Gerente extends Empregado {
         super(nome, salario);
         this.departamento = departamento;
     }
+
+    
+    public String getGerente() {
+        return null;
+    }
 }
